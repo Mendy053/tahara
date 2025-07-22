@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    image: node:20
+    volumes:
+      - ..:/workspace:cached
+    working_dir: /workspace
+    command: sleep infinity
+    ports:
+      - "3000:3000" # React
+      - "5001:5000" # Express (changed from 5000:5000 to avoid conflict)
+    environment:
+      - TZ=Asia/Jerusalem
+    tty: true

@@ -1,0 +1,10 @@
+{
+  "name": "tahara-server",
+  "version": "1.0.0",
+  "description": "Server for Tahara project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {}
+} 

@@ -1,0 +1,10 @@
+{
+  "name": "tahara-client",
+  "version": "1.0.0",
+  "description": "Client for Tahara project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "dependencies": {}
+} 
